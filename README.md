@@ -1,11 +1,17 @@
 # Gtk Themes
 
-## Install
+## Build
 
-```bash
+```shell
 mkdir build
+cd build
 cmake -DCMAKE_INSTALL_PREFIX:PATH=/usr ..
 make
+```
+
+## Install
+
+```shell
 sudo make install
 ```
 
